@@ -24,7 +24,10 @@ function dec(a) {
   return a;
 }
 
-function makeInt(a, 10) {
+function makeInt(a, b) {
+  if (b =/= 10) {
+    a = 0
+  }
 parseInt (a);
  return a;
 }
