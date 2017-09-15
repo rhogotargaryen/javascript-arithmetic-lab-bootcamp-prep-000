@@ -27,7 +27,8 @@ function dec(a) {
 function makeInt(a, b) {
   parseInt (a);
   if (b /= 10) {
-    a = 0
+    a = 0;
+    return a;
   }
- return a;
+  else return a;
 }
