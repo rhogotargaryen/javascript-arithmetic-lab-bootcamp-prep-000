@@ -28,5 +28,8 @@ function makeInt(a, b) {
   if (b === 16) {
     return 0;
   }
-  else return a;
+  else {
+    parseInt(a);
+    return a;
+}
 }
