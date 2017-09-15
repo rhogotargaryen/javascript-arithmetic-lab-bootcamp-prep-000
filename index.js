@@ -25,11 +25,8 @@ function dec(a) {
 }
 
 function makeInt(a, b) {
-  if (b === 16) {
-    return 0;
-  }
-  else {
-    parseInt(a);
-    return a;
+  b = 10;
+  parseInt(a, b);
+  return a;
 }
-}
+
