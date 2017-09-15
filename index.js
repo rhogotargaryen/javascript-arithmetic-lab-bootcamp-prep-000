@@ -29,4 +29,3 @@ function makeInt(a, b) {
   parseInt(a, b);
   return a;
 }
-
