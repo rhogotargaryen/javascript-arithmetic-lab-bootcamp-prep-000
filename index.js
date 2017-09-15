@@ -26,7 +26,6 @@ function dec(a) {
 
 function makeInt(a, b) {
   if (b === 16) {
-    a = 0;
     return 0;
   }
   else return a;
